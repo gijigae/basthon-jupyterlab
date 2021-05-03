@@ -2644,6 +2644,19 @@
   dependencies:
     "@jupyterlab/application" "^3.0.0"
 
+"@jupyterlite/basthon-kernel-extension@file:packages/basthon-kernel-extension":
+  version "0.1.0"
+  dependencies:
+    "@jupyterlab/coreutils" "^5.0.0"
+    "@jupyterlite/basthon-kernel" "^0.1.0"
+    "@jupyterlite/kernel" "^0.1.0"
+    "@jupyterlite/server" "^0.1.0"
+
+"@jupyterlite/basthon-kernel@file:packages/basthon-kernel":
+  version "0.1.0"
+  dependencies:
+    "@jupyterlite/kernel" "^0.1.0"
+
 "@jupyterlite/classic-application-extension@file:packages/classic-application-extension":
   version "0.1.0"
   dependencies:

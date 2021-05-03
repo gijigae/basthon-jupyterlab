@@ -51,10 +51,14 @@ const mimeExtensions = [
   import('@jupyterlab/json-extension')
 ];
 
-const mods = [
+const modsDummy = [
   import('@jupyterlite/javascript-kernel-extension'),
   import('@jupyterlite/p5-kernel-extension'),
-  import('@jupyterlite/pyolite-kernel-extension'),
+  import('@jupyterlite/pyolite-kernel-extension')
+];
+
+const mods = [
+  import('@jupyterlite/basthon-kernel-extension'),
   import('@jupyterlite/server-extension')
 ];
 

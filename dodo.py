@@ -87,6 +87,7 @@ def task_build():
         ],
         actions=[
             U.do("yarn", "build:lib"),
+            U.do("yarn", "build:basthon"),
         ],
         targets=[B.META_BUILDINFO],
     )

@@ -10,6 +10,8 @@ import '@jupyterlite/p5-kernel';
 import '@jupyterlite/p5-kernel-extension';
 import '@jupyterlite/pyolite-kernel-extension';
 import '@jupyterlite/pyolite-kernel';
+import '@jupyterlite/basthon-kernel-extension';
+import '@jupyterlite/basthon-kernel';
 import '@jupyterlite/server';
 import '@jupyterlite/server-extension';
 import '@jupyterlite/session';

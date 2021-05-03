@@ -16,6 +16,12 @@
       "path": "./packages/application-extension"
     },
     {
+      "path": "./packages/basthon-kernel"
+    },
+    {
+      "path": "./packages/basthon-kernel-extension"
+    },
+    {
       "path": "./packages/classic-application-extension"
     },
     {

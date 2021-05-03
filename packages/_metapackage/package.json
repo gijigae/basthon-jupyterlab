@@ -32,6 +32,8 @@
     "@jupyterlite/p5-kernel-extension": "file:../p5-kernel-extension",
     "@jupyterlite/pyolite-kernel": "file:../pyolite-kernel",
     "@jupyterlite/pyolite-kernel-extension": "file:../pyolite-kernel-extension",
+    "@jupyterlite/basthon-kernel": "file:../basthon-kernel",
+    "@jupyterlite/basthon-kernel-extension": "file:../basthon-kernel-extension",
     "@jupyterlite/server": "file:../server-extension",
     "@jupyterlite/session": "file:../session",
     "@jupyterlite/settings": "file:../settings",

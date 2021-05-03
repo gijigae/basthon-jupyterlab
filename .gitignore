@@ -130,3 +130,4 @@ app/kernels
 # generated
 docs/api/ts
 .vercel
+app/lab/basthon-kernel/

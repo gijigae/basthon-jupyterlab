@@ -10,10 +10,14 @@ __webpack_public_path__ = PageConfig.getOption('fullStaticUrl') + '/';
 
 require('./build/style.js');
 
-const serverMods = [
+const serverModsDummy = [
   import('@jupyterlite/javascript-kernel-extension'),
   import('@jupyterlite/p5-kernel-extension'),
-  import('@jupyterlite/pyolite-kernel-extension'),
+  import('@jupyterlite/pyolite-kernel-extension')
+];
+
+const serverMods = [
+  import('@jupyterlite/basthon-kernel-extension'),
   import('@jupyterlite/server-extension')
 ];
 

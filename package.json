@@ -20,6 +20,7 @@
   "scripts": {
     "bootstrap": "yarn && yarn clean && yarn build && yarn lint && yarn test",
     "build": "yarn build:lib && yarn build:app",
+    "build:basthon": "pip3 install --upgrade basthon-kernel && mkdir -p app/lab/basthon-kernel/ && cd app/lab/basthon-kernel/ && python3 -m basthon-kernel --install && cd -",
     "build:python": "lerna run build:python",
     "build:lib": "lerna run build --scope @jupyterlite/metapackage",
     "build:app": "lerna run build --stream --parallel --scope \"@jupyterlite/app-classic\" --scope \"@jupyterlite/app-lab\"",
