@@ -23,6 +23,10 @@ You'll need:
 - `nodejs >=12`
 - `yarn <2`
 - `python >=3.8`
+- `black`
+- `flit`
+- `sphinx`
+- `pytest-check-links`
 
 Various package managers on different operating systems provide these.
 

@@ -35,7 +35,7 @@
   "scripts": {
     "build": "yarn run build:lib",
     "build:lib": "tsc -b",
-    "build:python": "python -m pip install build && cd py && python -m build -w",
+    "build:python": "python3 -m pip install build && cd py && python3 -m build -w",
     "build:test": "tsc --build tsconfig.test.json",
     "clean": "yarn run clean:lib && yarn run clean:python",
     "clean:lib": "rimraf lib && rimraf tsconfig.tsbuildinfo",
